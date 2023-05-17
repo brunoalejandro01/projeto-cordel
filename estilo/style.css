@@ -1,1 +1,72 @@
 @charset "UTF-8";
+
+/*CONFIGURAÇÕES GERAIS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+/*HEADER*/
+
+header{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+header .link-header, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .link-header:hover, footer a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*CORPO DO TEXTO*/
+body section{
+    padding: 10vh 0 10vh 30px;
+    line-height: 2em;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.image{
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+section.image p{
+    background-color: rgba(0, 0, 0, 0.247);
+    width: 400px;
+}
+
+/*FOOTER*/
+footer{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    text-align: center;
+
+    padding: 10px;
+}
